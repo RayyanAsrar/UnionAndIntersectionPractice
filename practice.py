@@ -1,22 +1,23 @@
-#intersection practice
+#############intersection practice########
 # a=[1,2,3,4,5]
 # b=[9,5,2]
 # intersection_list=[0,0,0]
 # inter_index=0
-#WAY 1 
+#####WAY 1########
 # for x in range(len(b)):
 #     for y in range(len(a)):
 #         if b[x]==a[y] :
 #             intersection_list[inter_index]=b[x]
 #             inter_index=inter_index + 1
 # print(intersection_list)
-#WAY 2
+#######WAY 2########
 # for newb in b:
 #     for newa in a:
 #         if newb==newa :
 #              intersection_list[inter_index]=newb
 #              inter_index=inter_index + 1
 # print(intersection_list)
+#####union#########
 
 ################## SIR WALA CODE ############
 # a=[1,2,3,4]
@@ -106,4 +107,4 @@ for newb in b:  # yahan pe union kuch aesa dikh raha [1, 3, 4, 9, 0, 0, 0]
     if(found!=True):
         union[union_ind]=newb
         union_ind=union_ind+1
-print("ye agya UNION",union)
+print("ye agya UNION",union) 
